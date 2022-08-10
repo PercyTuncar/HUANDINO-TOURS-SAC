@@ -1305,8 +1305,16 @@ header .spacer + *{
 
 .service-column p {
   margin-bottom: 0;
+  
 }
-
+.service-bg{
+  background: #1668A4 !important;
+  padding: 20px;
+  border-radius: 12px;
+}
+.service-bg h3{
+ color: #eff4f8;
+}
 .entry{
   font-size:20px;
   text-transform: uppercase;
@@ -2676,7 +2684,7 @@ img.mfp-img{
 
 
 
-  /* About */
+  /* Nosotros */
 
 
 
@@ -2693,7 +2701,7 @@ img.mfp-img{
   }
 
 
-
+ 
   /* Navigation */
 
 
@@ -2782,4 +2790,10 @@ img.mfp-img{
 
 
 
+  .nosotros-bg{
+    background-color: #f0f5f9 !important;
+  }
 
+
+
+ 
