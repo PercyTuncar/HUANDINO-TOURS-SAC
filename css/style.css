@@ -99,7 +99,7 @@ p{
 
 ::-webkit-scrollbar-thumb {
   cursor: pointer;
-  background: #67d5b5;
+  background: #1668A4;
 }
 
 ::selection{
@@ -922,7 +922,7 @@ header .spacer + *{
 .navbar.affix{
   position: fixed;
   top:0;
-  background-color:rgba(14,14,14,0.95);
+  background-color:#1668A4;
   padding-top:20px;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
@@ -1820,7 +1820,7 @@ img.mfp-img{
 
 
 .reviews{
-  background:url(../img/bg/reviews.jpg) center 0 no-repeat;
+  background:url(../img/bg/nosotros.jpg) center 0 no-repeat;
   background-size: cover;
 }
 
@@ -2184,7 +2184,7 @@ img.mfp-img{
 }
 
 .contact{
-  background:url(../img/bg/contact.jpg) center 0 no-repeat;
+  background:url(../img/footer.jpg) center 0 no-repeat;
   background-size: cover;
 }
 
@@ -2562,7 +2562,7 @@ img.mfp-img{
   .navbar-nav .active > a,
   .navbar.affix .navbar-nav li > a:hover,
   .navbar.affix .navbar-nav .active > a{
-    color: #67d5b5;
+    color: #ffe81b;
   }
 
   .navbar-nav li .submenu{
