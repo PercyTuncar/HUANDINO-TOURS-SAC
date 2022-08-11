@@ -5,25 +5,18 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>HUANDINO TOURS SAC</title> 
 
-<!-- Favicons -->
 <link rel="shortcut icon" href="favicon.png">
  
-
-<!-- Fonts -->
-
+ 
 <link href='https://fonts.googleapis.com/css?family=Hind:400,500,600,700' rel='stylesheet' type='text/css'>
-
-<!-- Styles -->
-
+ 
 <link href="css/style.css" rel="stylesheet" media="screen">
 
 </head>
 <body>
   <div class="layout">
  
-
-  <!-- Header -->
-
+ 
   <header id="top" class="navbar js-navbar-affix">
     <div class="container">
       <div class="navbar-header">
@@ -65,8 +58,7 @@
     </div>
   </main>
 
-  <!-- Content -->
-
+ 
 <div style="height: 50px">
 </div>
 
@@ -90,7 +82,7 @@
             <div class="row ">
           
               <div class="col-md-6">
-                <!-- img --> 
+                <!-- imagen --> 
                   <img width="500px" style="border-radius: 12px;" src="img/img van tour.png" alt="">
 
               </div>
@@ -310,11 +302,7 @@
      
     </section>
 
- 
   
- 
-
-    <!-- Contact -->
 
     <section id="contacto" class="contact text-white masked section">
       <div class="container">
@@ -409,9 +397,7 @@
         </div>
       </div>
     </section>
-
-    <!-- Footer -->
-
+ 
     <footer id="footer" class="footer text-white">
       <div class="footer-bottom">
         <div class="container">
@@ -430,163 +416,10 @@
   </div>
 </div>
 
-  <!-- Modals -->
 
-  <div id="request" class="modal fade" role="dialog">
-    <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <span class="close" data-dismiss="modal" aria-label="Close">&times;</span>
-            <h2 class="modal-title">Start with us</h2>
-          </div>
-          <div class="modal-body text-center">
-            <form class="form-request js-ajax-form">
-              <div class="row-fields row">
-                <div class="form-group col-field col-sm-6">
-                    <input type="text" class="form-control form-control-white" name="name" required placeholder="Name *">
-                </div>
-                 <div class="form-group col-field col-sm-6">
-                    <input type="email" class="form-control form-control-white" name="email" required placeholder="Email *">
-                  </div>
-                <div class="form-group col-field col-sm-12">
-                    <textarea class="form-control form-control-white" rows="3" name="message" placeholder="Message"></textarea>
-                </div>
-                <div class="col-sm-12">
-                  <button type="submit" class="btn btn-hvr-white hvr-pulse-grow" data-text-hover="Submit">Send request</button>
-                </div>
-              </div>
-            </form>
-          </div>
-        </div>
-    </div>
-  </div>
 
-  <!-- Modals success -->
+ 
 
-  <div id="success" class="modal modal-message fade" role="dialog">
-    <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <span class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></span>
-            <h2 class="modal-title">Thank you</h2>
-            <p class="modal-subtitle">Your message is successfully sent...</p>
-          </div>
-        </div>
-    </div>
-  </div>
-
-  <!-- Modals error -->
-
-  <div id="error" class="modal modal-message fade" role="dialog">
-    <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <span class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></span>
-             <h2 class="modal-title">Sorry</h2>
-            <p class="modal-subtitle"> Something went wrong </p>
-          </div>
-        </div>
-    </div>
-  </div>
-
-<!-- SCRIPTS -->
-
-<script src="js/jquery.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/jquery.viewport.js"></script>
-<script src="js/smoothscroll.js"></script>
-<script src="js/jquery.validate.min.js"></script>
-<script src="js/jquery.ajaxchimp.min.js"></script>
-<script src="js/jQuerySimpleCounter.js"></script>
-<script src="js/wow.min.js"></script>
-<script src="js/jquery.stellar.min.js"></script>
-<script src="js/jquery.magnific-popup.js"></script>
-<script src="js/owl.carousel.min.js"></script>
-<script src="js/imagesloaded.pkgd.js"></script>
-<script src="js/isotope.pkgd.min.js"></script>
-<script src="js/interface.js"></script> 
-
-<!-- SLIDER REVOLUTION -->
-<script src="js/rev-slider/jquery.themepunch.tools.min.js"></script>
-<script src="js/rev-slider/jquery.themepunch.revolution.min.js"></script>
-
-<!-- SLIDER REVOLUTION 5.0 EXTENSIONS   -->
-<script src="js/rev-slider/revolution.extension.actions.min.js"></script>
-<script src="js/rev-slider/revolution.extension.carousel.min.js"></script>
-<script src="js/rev-slider/revolution.extension.kenburn.min.js"></script>
-<script src="js/rev-slider/revolution.extension.layeranimation.min.js"></script>
-<script src="js/rev-slider/revolution.extension.migration.min.js"></script>
-<script src="js/rev-slider/revolution.extension.navigation.min.js"></script>
-<script src="js/rev-slider/revolution.extension.parallax.min.js"></script>
-<script src="js/rev-slider/revolution.extension.slideanims.min.js"></script>
-<script src="js/rev-slider/revolution.extension.video.min.js"></script>
-
-<script>
-  if (typeof $.fn.revolution !== 'undefined') {
-      
-      $("#rev_slider").revolution({
-        sliderType:"standard",
-        sliderLayout:"fullscreen",
-        dottedOverlay:"none",
-        delay:7000,
-        navigation: {
-          keyboardNavigation:"off",
-          keyboard_direction: "horizontal",
-          onHoverStop:"off",
-          touch:{
-            touchenabled:"on",
-            swipe_threshold: 75,
-            swipe_min_touches: 1,
-            swipe_direction: "horizontal",
-            drag_block_vertical: false
-          },
-          bullets: {
-            enable:true,
-            hide_onmobile:true,
-            hide_under:767,
-            style:"custom",
-            hide_onmobile: true,
-            hide_onleave: true,
-            direction:"horizontal",
-            h_align:"center",
-            v_align:"bottom",
-            h_offset:0,
-            v_offset:40,
-            space:8,
-            tmp:'<span class="tp-bullet-inner"></span>'
-          }
-        },
-        viewPort: {
-          enable:true,
-          outof:"pause",
-          visible_area:"80%"
-        },
-        responsiveLevels:[1240,1024,778,480],
-        gridwidth:[800],
-        gridheight:[600],
-        lazyType:"none",
-        shadow:0,
-        spinner:"off",
-        stopLoop:"on",
-        stopAfterLoops:0,
-        shuffle:"off",
-        autoHeight:"off",
-        fullScreenAlignForce:"off",
-        fullScreenOffsetContainer: "",
-        fullScreenOffset: "",
-        disableProgressBar:"on",
-        hideThumbsOnMobile:"off",
-        hideSliderAtLimit:0,
-        hideCaptionAtLimit:0,
-        hideAllCaptionAtLilmit:0,
-        debugMode:false,
-        fallbacks: {
-          simplifyAll:"off",
-          nextSlideOnWindowFocus:"off",
-          disableFocusListener:false,
-        }
-      });
-    }
-</script>
+ 
 </body>
 </html>
