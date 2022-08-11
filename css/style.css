@@ -1,20 +1,11 @@
  
 
-@import url('bootstrap.min.css');
-@import url('font-awesome.min.css');
-@import url('hover.css');
-@import url('animate.css');
-@import url('magnific-popup.css');
-@import url('owl.carousel.css');
-@import url('owl.transitions.css');
-@import url('settings.css');
-@import url('layers.css');
+@import url('bootstrap.min.css');   
+@import url('settings.css'); 
 @import url('navigation.css');
 
 
-html{
-  -webkit-font-smoothing: antialiased;
-}
+ 
 
 body{
   font-family: 'Hind', sans-serif;
@@ -30,21 +21,7 @@ p{
   font-weight: 400;
 }
 
-::-webkit-scrollbar{
-  width: 8px;
-  height: 8px;
-}
-
-::-webkit-scrollbar-thumb {
-  cursor: pointer;
-  background: #1668A4;
-}
-
-::selection{
-  background-color:#67d5b5;
-  color:#fff;
-}
-
+ 
 -webkit-::selection{
     background-color:#67d5b5;
     color:#fff;
@@ -56,42 +33,10 @@ p{
 }
 
 
-
-/* 1.2 Loader */
-
+ 
 
 
-.loader{
-  position: fixed;
-  overflow: hidden;
-  z-index: 100;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background:#141414;
-  color:#fff;
-  text-align: center;
-}
-
-.loader-brand{
-  position: absolute;
-  left:0;
-  width: 100%;
-  top:50%;
-  -webkit-transform: translate(0, -50%);
-      -ms-transform: translate(0, -50%);
-       -o-transform: translate(0, -50%);
-          transform: translate(0, -50%);
-}
-
-.loader-brand img{
-  max-width: 90%;
-}
-
-
-
-/* 1.3 Typography */
+/* FUENTES*/
 
 
 
@@ -162,20 +107,10 @@ ol li,
 ul li{
   margin-top: 10px;
 }
-
-blockquote{
-  margin:40px 0;
-  background-color: #f6f6f6;
-  padding: 30px;
-  position: relative;
-  border-left-color:#67d5b5;
-  font-size: inherit;
-  line-height: 1.7;
-  color: #6B6B6B;
-}
+ 
 
 a {
-  color:#67d5b5;
+  color:#1668A4;
   -webkit-transition: all .3s ease-out;
        -o-transition: all .3s ease-out;
           transition: all .3s ease-out;
@@ -191,10 +126,7 @@ a:focus{
   text-decoration: none;
 }
 
-
-
-/* 1.4 Fields */
-
+ 
 
 
 .form-control,
@@ -338,10 +270,7 @@ label.mc-label .fa{
   color: #67d5b5;
 }
 
-
-/* 1.5 Buttons */
-
-
+ 
 
 .btn{
   position: relative;
@@ -909,93 +838,37 @@ header .spacer + *{
 .rev_slider{
   color: #fff;
   min-height: 420px;
-  background-color: #141414;
-}
-
-.tp-caption{
-  text-align: center;
-}
-
-.main .btn{
-  padding-left: 30px;
-  padding-right: 30px;
-}
-
-.ares.tparrows{
-  min-width: 50px;
-  min-height: 50px;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-  background-color: rgba(255,255,255,0.9);
-}
-
-.ares.tparrows.tp-leftarrow{
-  margin-left: 40px;
-}
-
-.ares.tparrows.tp-rightarrow{
-  margin-right: 40px;
-}
-
-.ares.tparrows.tp-leftarrow:before,
-.ares.tparrows.tp-rightarrow:before{
-  font-family: 'FontAwesome';
-  line-height: 50px;
-  color:#67d5b5;
-}  
-
-.ares.tparrows.tp-leftarrow:before{
-  content: "\f104";
-}
-
-.ares.tparrows.tp-rightarrow:before{
-  content: "\f105";
-}
-
-.ares.tparrows:hover{
-  background-color: rgba(14,14,14,0.9);
-}
-
-.ares.tparrows:hover .ares.tparrows.tp-leftarrow:before, 
-.ares.tparrows:hover .ares.tparrows.tp-rightarrow:before{
-  color: #fff;
-}
-
-.scroll-bottom{
-  display:inline-block;
-  text-align: center;
-  width: 50px;
-  height: 50px;
-  line-height: 50px;
-  border-radius: 50%;
-  background-color: #67d5b5;
-}
-
-.scroll-bottom .fa{
-  position: relative;
-  line-height: 50px;
-  font-size: 17px;
-  color: #fff;
-}
-
-.scroll-bottom:hover{
   background-color: #fff;
 }
 
-.scroll-bottom:hover .fa{
-  color:#67d5b5;
+@media (min-width: 905px){
+  .rev_slider{
+    min-height: 700px;
+  }
+}
+
+@media (max-width: 655px){
+  .rev_slider{
+    min-height: 300px;
+  }
+}
+
+@media (max-width: 455px){
+  .rev_slider{
+    min-height: 200px;
+  }
+}
+
+@media (max-width: 355px){
+  .rev_slider{
+    min-height: 100px;
+  }
 }
 
 
-/* ------------------------------------------------------------------------------- */
-/*  4. About
-/* ------------------------------------------------------------------------------- */
+ 
 
-
-
-.partners{
-  overflow: hidden;
-}
+ 
 
 .bg-about-1{
   background:url(../img/bg/about1.jpg) center no-repeat;
@@ -1174,10 +1047,7 @@ header .spacer + *{
   content: "-";
 }
 
-.panel-group .panel-heading+.panel-collapse>.panel-body, 
-.panel-group .panel-heading+.panel-collapse>.list-group{
-  border:2px solid #67d5b5;
-}
+ 
 
 .panel-body{
   margin-top: 15px;
@@ -1404,112 +1274,8 @@ img.mfp-img{
 
 
  
-
-/* ------------------------------------------------------------------------------- */
-/*  8.  
-/* ------------------------------------------------------------------------------- */
-
-
-
-.reviews{
-  background:url(../img/bg/nosotros.jpg) center 0 no-repeat;
-  background-size: cover;
-}
-
-.review-name{
-  font-size: 18px;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  margin-top: 35px;
-}
-
-.review-spec{
-  font-size:14px;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  color:#67d5b5;
-  font-weight: 400;
-  margin:0;
-}
-
-.review-description{
-  margin-top: 30px;
-}
-
-.review-carousel-2 .review{
-  position: relative;
-  margin:0 15px;
-  padding:0 50px 40px;
-}
-
-.review-carousel-2 .review:before{
-  content:'';
-  position: absolute;
-  z-index: -1;
-  left: 0;
-  right: 0;
-  top:50px;
-  bottom:0;
-  border:2px solid #f0f5f9;
-}
-
-.review-carousel-2 .owl-controls .owl-pagination{
-  margin-top: 80px;
-}
-
-.review-carousel-3 .col-review-text{
-  margin-top: 50px;
-  padding: 50px;
-  border:2px solid #eff4f8;
-}
-
-.review-carousel-3 .review-name{
-  margin-top: 0;
-}
-
-
-
-/* 8.1 Owl carousel */
-
-
-
-.owl-controls .owl-pagination{
-  text-align: center;
-  margin-top: 35px;
-}
-
-.owl-controls .owl-page{
-  display: inline-block;
-  margin:0 4px;
-}
-
-.owl-controls .owl-page span{
-  display: inline-block;
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  border:2px solid #67d5b5;
-  -webkit-transition: .2s linear;
-       -o-transition: .2s linear;
-          transition: .2s linear;
-}
-
-.owl-controls .owl-page.active span, 
-.owl-controls .owl-page:hover span{
-  background-color:#67d5b5;
-}
-
-.dots-white .owl-controls .owl-page span{
-  border-color: #fff;
-}
-
-.dots-white .owl-controls .owl-page.active span, 
-.dots-white  .owl-controls .owl-page:hover span{
-  background-color:#fff;
-
-}
  
-
+  
 /* ------------------------------------------------------------------------------- */
 /*  11. Contact
 /* ------------------------------------------------------------------------------- */
@@ -1865,7 +1631,11 @@ img.mfp-img{
 
 
   .navbar {
-    padding-top: 50px;
+    z-index: 10000;
+    padding-top: 25px;
+    position: fixed;
+    background: #1668A4;
+    padding-bottom: 25px;
   }
 
   .brand{
