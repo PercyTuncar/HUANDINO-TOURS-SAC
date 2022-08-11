@@ -20,17 +20,8 @@ body{
 p{
   font-weight: 400;
 }
-
  
--webkit-::selection{
-    background-color:#67d5b5;
-    color:#fff;
-}
-
-::-moz-selection{
-    background-color:#67d5b5;
-    color:#fff;
-}
+ 
 
 
  
@@ -116,11 +107,7 @@ a {
           transition: all .3s ease-out;
 }
 
-a:hover,
-a:focus {
-  color:#67d5b5;
-  outline: none;
-}
+ 
 
 a:focus{
   text-decoration: none;
@@ -173,13 +160,8 @@ textarea.form-control-white{
   color: #fff;
 }
 
-.form-control:focus,
-.form-control-sm:focus {
-  border-color:#67d5b5;
-  outline: 0;
-  -webkit-box-shadow:none;
-          box-shadow:none;
-}
+ 
+
 
 textarea.form-control{
   height: 188px;
@@ -225,10 +207,7 @@ textarea.form-control{
   color: #fff;
 }
 
-.form-control.error,
-.form-control-sm.error{
-  border-color:#67d5b5;
-}
+ 
 
 .form-group{
   margin-bottom: 40px;
@@ -283,8 +262,7 @@ label.mc-label .fa{
   letter-spacing: 0.1em;
   font-weight: 500;
   border-radius: 0;
-  text-transform: uppercase;
-  background-color: #67d5b5;
+  text-transform: uppercase; 
   -webkit-transition: all .3s ease-out;
           transition: all .3s ease-out;
 }
@@ -304,11 +282,7 @@ label.mc-label .fa{
   box-shadow: none;
 }
 
-.btn:hover,
-.btn:focus{
-  border-color:#67d5b5;
-  background-color: transparent;
-}
+ 
 
 .btn-light{
   background-color: #f0f5f9;
@@ -316,11 +290,7 @@ label.mc-label .fa{
   color: #141414;
 }
 
-.btn-light:hover,
-.btn-light:focus{
-  color:#fff;
-  background-color: #67d5b5;
-}
+ 
 
 .btn-white{
   color: #141414;
@@ -328,12 +298,7 @@ label.mc-label .fa{
   border-color: #fff;
 }
 
-.btn-white:hover,
-.btn-white:focus{
-  color:#fff;
-  background-color: #67d5b5;
-  border-color: #67d5b5;
-}
+ 
 
 .btn-b-white{
   border:2px solid #fff;
@@ -355,11 +320,7 @@ label.mc-label .fa{
   background-color:transparent;
 }
 
-.btn-b-dark:hover,
-.btn-b-dark:focus{
-  color:#fff;
-  background-color: #67d5b5;
-}
+ 
 
 
 
@@ -1056,8 +1017,7 @@ header .spacer + *{
 }
 
 .panel-body-title{
-  font-size: 14px;
-  color:#67d5b5;
+  font-size: 14px; 
   letter-spacing: 0.05em;
   text-transform: uppercase;
   font-weight: 500;
@@ -1569,13 +1529,7 @@ img.mfp-img{
   display: block;
 }
 
-.close:hover,
-.close:focus {
-  color: #67d5b5;
-  opacity:1;
-  filter: alpha(opacity=1);
-}
-
+ 
 .modal-header .close{
   position: absolute;
   z-index: 1;
